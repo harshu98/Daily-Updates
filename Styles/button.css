@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+table {
+    border-collapse: separate;
+    border-spacing: 0 2.5em;
+}
+
+.policy {
+    box-shadow: 3px 3px 5px grey;
+    background-color: lightblue;
+    text-align: center;
+    flex-basis: 50%;
+}
+
+#loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

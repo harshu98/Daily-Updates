@@ -1,0 +1,30 @@
+table {
+    border-collapse: separate;
+    border-spacing: 0 2.5em;
+}
+
+.policy {
+    box-shadow: 3px 3px 5px grey;
+    background-color: lightblue;
+    text-align: center;
+    flex-basis: 50%;
+    overflow: hidden;
+    top: 50px;
+    left: 50px
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#chromeDiv {
+    position: absolute;
+    z-index: 9;
+    top: 60%;
+    right: 15px;
+}
